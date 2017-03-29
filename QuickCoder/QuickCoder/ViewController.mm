@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "MethodDefault.h"
 @interface ViewController ()
 
 @end
@@ -16,8 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    
 }
+
+
+QuickCoder_method_getter_retain(UIView, sunView);
 
 
 - (void)didReceiveMemoryWarning {

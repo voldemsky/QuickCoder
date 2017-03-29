@@ -8,6 +8,9 @@
 
 #ifndef viewSetCateragy_h
 #define viewSetCateragy_h
+
+#import "UIButton+ButtonSet.h"
+
 typedef void(^setAttribute_id)(id info);
 typedef void(^setAttribute_float)(CGFloat size);
 typedef void(^setAttribute_SEL)(SEL sel,id target);
@@ -15,7 +18,7 @@ typedef void(^setAttribute_SEL)(SEL sel,id target);
 struct view_attribute_enum{
     CGColorRef backgroundColor;
     CGColorRef layerColor;
-
+    
     CGFloat    corneradius;
     CGFloat    bordWidth;
 };

@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "viewSetCateragy.h"
-
+typedef void(^setAttribute_id)(id info);
+typedef void(^setAttribute_float)(CGFloat size);
+typedef void(^setAttribute_SEL)(SEL sel,id target);
 @interface UIButton (ButtonSet)
 
 #pragma mark 一键创建button

@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "MethodDefault.h"
 @interface ViewController : UIViewController
+
+
+QuickCoder_propety_retain(UIView,sunView)
 
 
 @end
