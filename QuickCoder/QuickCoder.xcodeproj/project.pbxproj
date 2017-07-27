@@ -7,11 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED3431791E89FB5F00408CC5 /* UIButton+ButtonSet.m in Sources */ = {isa = PBXBuildFile; fileRef = ED34316F1E89FB5F00408CC5 /* UIButton+ButtonSet.m */; };
-		ED34317A1E89FB5F00408CC5 /* UIImageView+ImageViewSet.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3431711E89FB5F00408CC5 /* UIImageView+ImageViewSet.m */; };
-		ED34317B1E89FB5F00408CC5 /* UILabel+LabelSet.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3431731E89FB5F00408CC5 /* UILabel+LabelSet.m */; };
-		ED34317C1E89FB5F00408CC5 /* UITableView+TableViewSet.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3431751E89FB5F00408CC5 /* UITableView+TableViewSet.m */; };
-		ED34317D1E89FB5F00408CC5 /* UIView+ViewSet.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3431771E89FB5F00408CC5 /* UIView+ViewSet.m */; };
+		ED46F2F91F29E1EC00756089 /* SXF_UI.m in Sources */ = {isa = PBXBuildFile; fileRef = ED46F2F81F29E1EC00756089 /* SXF_UI.m */; };
+		ED46F2FC1F29ECC800756089 /* UIView+SXF_UI.m in Sources */ = {isa = PBXBuildFile; fileRef = ED46F2FB1F29ECC800756089 /* UIView+SXF_UI.m */; };
 		ED470BBF1E89F959005AEC6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED470BBE1E89F959005AEC6F /* main.m */; };
 		ED470BC21E89F959005AEC6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED470BC11E89F959005AEC6F /* AppDelegate.m */; };
 		ED470BC51E89F959005AEC6F /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = ED470BC41E89F959005AEC6F /* ViewController.mm */; };
@@ -40,19 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ED265FC51E8B454C0075A8F9 /* MethodDefault.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MethodDefault.h; sourceTree = "<group>"; };
-		ED265FC61E8B50E10075A8F9 /* ButtonPropety.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonPropety.h; sourceTree = "<group>"; };
-		ED34316E1E89FB5F00408CC5 /* UIButton+ButtonSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ButtonSet.h"; sourceTree = "<group>"; };
-		ED34316F1E89FB5F00408CC5 /* UIButton+ButtonSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ButtonSet.m"; sourceTree = "<group>"; };
-		ED3431701E89FB5F00408CC5 /* UIImageView+ImageViewSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ImageViewSet.h"; sourceTree = "<group>"; };
-		ED3431711E89FB5F00408CC5 /* UIImageView+ImageViewSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ImageViewSet.m"; sourceTree = "<group>"; };
-		ED3431721E89FB5F00408CC5 /* UILabel+LabelSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LabelSet.h"; sourceTree = "<group>"; };
-		ED3431731E89FB5F00408CC5 /* UILabel+LabelSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LabelSet.m"; sourceTree = "<group>"; };
-		ED3431741E89FB5F00408CC5 /* UITableView+TableViewSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+TableViewSet.h"; sourceTree = "<group>"; };
-		ED3431751E89FB5F00408CC5 /* UITableView+TableViewSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+TableViewSet.m"; sourceTree = "<group>"; };
-		ED3431761E89FB5F00408CC5 /* UIView+ViewSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewSet.h"; sourceTree = "<group>"; };
-		ED3431771E89FB5F00408CC5 /* UIView+ViewSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewSet.m"; sourceTree = "<group>"; };
-		ED3431781E89FB5F00408CC5 /* viewSetCateragy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewSetCateragy.h; sourceTree = "<group>"; };
+		ED46F2F71F29E1EC00756089 /* SXF_UI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXF_UI.h; sourceTree = "<group>"; };
+		ED46F2F81F29E1EC00756089 /* SXF_UI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXF_UI.m; sourceTree = "<group>"; };
+		ED46F2FA1F29ECC800756089 /* UIView+SXF_UI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SXF_UI.h"; sourceTree = "<group>"; };
+		ED46F2FB1F29ECC800756089 /* UIView+SXF_UI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SXF_UI.m"; sourceTree = "<group>"; };
 		ED470BBA1E89F959005AEC6F /* QuickCoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickCoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED470BBE1E89F959005AEC6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ED470BC01E89F959005AEC6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -99,17 +87,10 @@
 		ED34316D1E89FB5F00408CC5 /* UICateragy */ = {
 			isa = PBXGroup;
 			children = (
-				ED3431781E89FB5F00408CC5 /* viewSetCateragy.h */,
-				ED34316E1E89FB5F00408CC5 /* UIButton+ButtonSet.h */,
-				ED34316F1E89FB5F00408CC5 /* UIButton+ButtonSet.m */,
-				ED3431721E89FB5F00408CC5 /* UILabel+LabelSet.h */,
-				ED3431731E89FB5F00408CC5 /* UILabel+LabelSet.m */,
-				ED3431701E89FB5F00408CC5 /* UIImageView+ImageViewSet.h */,
-				ED3431711E89FB5F00408CC5 /* UIImageView+ImageViewSet.m */,
-				ED3431741E89FB5F00408CC5 /* UITableView+TableViewSet.h */,
-				ED3431751E89FB5F00408CC5 /* UITableView+TableViewSet.m */,
-				ED3431761E89FB5F00408CC5 /* UIView+ViewSet.h */,
-				ED3431771E89FB5F00408CC5 /* UIView+ViewSet.m */,
+				ED46F2F71F29E1EC00756089 /* SXF_UI.h */,
+				ED46F2F81F29E1EC00756089 /* SXF_UI.m */,
+				ED46F2FA1F29ECC800756089 /* UIView+SXF_UI.h */,
+				ED46F2FB1F29ECC800756089 /* UIView+SXF_UI.m */,
 			);
 			name = UICateragy;
 			path = QuickCoder/UICateragy;
@@ -118,8 +99,6 @@
 		ED470BB11E89F959005AEC6F = {
 			isa = PBXGroup;
 			children = (
-				ED265FC51E8B454C0075A8F9 /* MethodDefault.h */,
-				ED265FC61E8B50E10075A8F9 /* ButtonPropety.h */,
 				ED34316D1E89FB5F00408CC5 /* UICateragy */,
 				ED470BBC1E89F959005AEC6F /* QuickCoder */,
 				ED470BD61E89F959005AEC6F /* QuickCoderTests */,
@@ -316,13 +295,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED3431791E89FB5F00408CC5 /* UIButton+ButtonSet.m in Sources */,
-				ED34317A1E89FB5F00408CC5 /* UIImageView+ImageViewSet.m in Sources */,
+				ED46F2FC1F29ECC800756089 /* UIView+SXF_UI.m in Sources */,
 				ED470BC51E89F959005AEC6F /* ViewController.mm in Sources */,
-				ED34317C1E89FB5F00408CC5 /* UITableView+TableViewSet.m in Sources */,
+				ED46F2F91F29E1EC00756089 /* SXF_UI.m in Sources */,
 				ED470BC21E89F959005AEC6F /* AppDelegate.m in Sources */,
-				ED34317B1E89FB5F00408CC5 /* UILabel+LabelSet.m in Sources */,
-				ED34317D1E89FB5F00408CC5 /* UIView+ViewSet.m in Sources */,
 				ED470BBF1E89F959005AEC6F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

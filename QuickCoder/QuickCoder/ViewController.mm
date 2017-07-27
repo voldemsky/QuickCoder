@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "MethodDefault.h"
+#import "UIView+SXF_UI.h"
+#import "SXF_UI.h"
 @interface ViewController ()
 
 @end
@@ -16,12 +17,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    
+    UIButton *view = [[UIButton alloc] init];
+    
+    [view sxf_initUI:^(SXF_UI *UI) {
+        UI.sxf_Color([UIColor redColor]).sxf_superView(self.view).sxf_frame(CGRectMake(0, 0, 100, 100));
+        UI.sxf_title(@"你大爷还是你大爷",UIControlStateNormal);
+    }];
     
 }
 
 
-QuickCoder_method_getter_retain(UIView, sunView);
 
 
 - (void)didReceiveMemoryWarning {
